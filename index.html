@@ -33,30 +33,52 @@
                 background-color: #d90000;
                 color: #fff;
             }
+
             ul li a.active .hide {
                 background-color: #d90000;
                 color: #fff;
             }
+
             ul li a.active .hide {
                 background-color: #d90000;
                 color: #fff;
             }
-            ul li a.active{
-             background: red;   
-             color:blue;
+
+            ul li a.active {
+                background: red;
+                color: blue;
             }
-            ul li a.active{
-             background: red;   
-             color:blue;
+
+            ul li a.active {
+                background: red;
+                color: blue;
             }
-            ul li a.active{
-             background: red;   
-             color:blue;
+
+            ul li a.active {
+                background: red;
+                color: blue;
+            }
+
+            .spinner {
+                width: 56px;
+                height: 56px;
+                border-radius: 50%;
+                background: radial-gradient(farthest-side, #038c8c 94%, #0000) top/9px 9px no-repeat,
+                    conic-gradient(#0000 30%, #038c8c);
+                -webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 9px), #000 0);
+                animation: spinner-c7wet2 1s infinite linear;
+            }
+
+            @keyframes spinner-c7wet2 {
+                100% {
+                    transform: rotate(1turn);
+                }
             }
         </style>
     </head>
 
 <body>
+    <div class="spinner"></div>
     <div style="text-align:center;margin-top:25px;font-weight:bold;texxxt-decoration:none;">
         <a href="#" target="_blank">My Profile</a>
     </div>
@@ -76,8 +98,7 @@
                 <li><a class="menu" href="#">Contact </a></li>
                 <li><a class="menu" href="#">Services</a></li>
                 <li><a class="menu" href="#">Contact Us</a></li>
-                <li><a class="menu"
-                        href="#">Read Our
+                <li><a class="menu" href="#">Read Our
                         Blog</a></li>
             </ul>
         </nav>
